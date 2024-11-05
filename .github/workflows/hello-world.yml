@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
       - name: checkout repo
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - run: echo "$(cat hello_world.txt)"
